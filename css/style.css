@@ -239,7 +239,7 @@ body {
     backface-visibility: hidden;
     border-radius: 5px;
     overflow: hidden;
-    box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.3); }
+    box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.7); }
     .card__side--front {
       background-color: #fff; }
     .card__side--back {
@@ -306,23 +306,23 @@ body {
     -webkit-box-decoration-break: clone;
     box-decoration-break: clone; }
     .card__heading-span-1 {
-      background-image: linear-gradient(to right bottom, rgba(255, 185, 0, 0.85), rgba(255, 119, 48, 0.85)); }
+      background-image: linear-gradient(to right bottom, rgba(255, 185, 0, 0.1), rgba(255, 119, 48, 0.7)); }
     .card__heading-span-2 {
-      background-image: linear-gradient(to right bottom, rgba(76, 175, 80, 0.85), rgba(0, 121, 107, 0.85)); }
+      background-image: linear-gradient(to right bottom, rgba(76, 175, 80, 0.1), rgba(0, 121, 107, 0.7)); }
     .card__heading-span-3 {
-      background-image: linear-gradient(to right bottom, rgba(41, 152, 255, 0.85), rgba(86, 67, 250, 0.85)); }
+      background-image: linear-gradient(to right bottom, rgba(41, 152, 255, 0.1), rgba(86, 67, 250, 0.7)); }
     .card__heading-span-4 {
-      background-image: linear-gradient(to right bottom, rgba(255, 185, 0, 0.85), rgba(255, 119, 48, 0.85)); }
+      background-image: linear-gradient(to right bottom, rgba(255, 185, 0, 0.1), rgba(255, 119, 48, 0.7)); }
     .card__heading-span-5 {
-      background-image: linear-gradient(to right bottom, rgba(76, 175, 80, 0.85), rgba(0, 121, 107, 0.85)); }
+      background-image: linear-gradient(to right bottom, rgba(76, 175, 80, 0.1), rgba(0, 121, 107, 0.7)); }
     .card__heading-span-6 {
-      background-image: linear-gradient(to right bottom, rgba(41, 152, 255, 0.85), rgba(86, 67, 250, 0.85)); }
+      background-image: linear-gradient(to right bottom, rgba(41, 152, 255, 0.1), rgba(86, 67, 250, 0.7)); }
     .card__heading-span-7 {
-      background-image: linear-gradient(to right bottom, rgba(255, 185, 0, 0.85), rgba(255, 119, 48, 0.85)); }
+      background-image: linear-gradient(to right bottom, rgba(255, 185, 0, 0.1), rgba(255, 119, 48, 0.7)); }
     .card__heading-span-8 {
-      background-image: linear-gradient(to right bottom, rgba(76, 175, 80, 0.85), rgba(0, 121, 107, 0.85)); }
+      background-image: linear-gradient(to right bottom, rgba(76, 175, 80, 0.1), rgba(0, 121, 107, 0.7)); }
     .card__heading-span-9 {
-      background-image: linear-gradient(to right bottom, rgba(41, 152, 255, 0.85), rgba(86, 67, 250, 0.85)); }
+      background-image: linear-gradient(to right bottom, rgba(41, 152, 255, 0.1), rgba(86, 67, 250, 0.7)); }
   .card__details ul {
     list-style: none;
     margin: 5rem 0 auto; }
@@ -343,12 +343,10 @@ body {
     text-align: center;
     color: #fff;
     margin-bottom: 8rem; }
-  .card__price-only {
-    font-size: 1.4rem;
-    text-transform: uppercase; }
   .card__price-value {
-    font-size: 6rem;
-    font-weight: 100; }
+    font-size: 3rem;
+    font-weight: 100;
+    text-transform: capitalize; }
 
 .shape {
   width: 20rem;
@@ -482,7 +480,7 @@ body {
   clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%); }
   .header__logo-box {
     position: absolute;
-    top: 4rem;
+    top: 1rem;
     left: 4rem; }
   .header__logo {
     height: 3.5rem;
@@ -608,7 +606,8 @@ body {
     z-index: 2000;
     box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.1);
     text-align: center;
-    cursor: pointer; }
+    cursor: pointer;
+    margin-top: 4rem; }
   .navigation__background {
     height: 6rem;
     width: 6rem;
@@ -618,7 +617,8 @@ body {
     right: 6.5rem;
     background-image: radial-gradient(#b3e5fc, #2979ff);
     z-index: 1000;
-    transition: transform 0.8s cubic-bezier(0.86, 0, 0.07, 1); }
+    transition: transform 0.8s cubic-bezier(0.86, 0, 0.07, 1);
+    margin-top: 4rem; }
   .navigation__nav {
     height: 100vh;
     position: fixed;
